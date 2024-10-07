@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="./stylelogar.css">
+
+</head>
+
+<body>
+
+    
+
+    <header>
+        <div class="container">
+
+            <img src="./img/MeuCarrinho 22.png" alt="">
+            <img src="./img/22.png" alt="">
+
+
+            <div>
+                <a href="./index.html">
+                    <img id="add1" src="./img/Voltar 22.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+    
+        <div class="logar">
+            <h2>Login</h2>
+            <form action="login.html" method="POST">
+                <input type="email" placeholder="E-mail" id="logar_email" required>
+                <input type="password" placeholder="Senha" id="logar_senha" required>
+                <button type="submit" class="login-btn" onclick="logar(event)">Logar</button>
+                <button type="submit" class="login-btn" onclick="sair(event)">Sair</button>
+                <button type="button" class="register-btn"
+                    onclick="window.location.href='./cadastro.html'">Cadastrar</button>
+            </form>
+        </div>
+
+<script src="./logar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+button {
+    background: linear-gradient(45deg,rgb(244, 67, 105, 1), rgb(62, 59, 146, 1));
+    background-size: 400% 400%;
+    animation: rainbow 10s linear infinite;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    background: linear-gradient(45deg,rgb(244, 67, 105, 1), rgb(62, 59, 146, 1));
+    background-size: 400% 400%;
+    animation: rainbow 10s linear infinite;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+header p{
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+
+#add1:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+#add2:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.container img {
+    height: 60px;
+    padding-right: 10px;
+}
+
+
+.item {
+    display: flex; 
+}
+
+
+.limpar {
+    margin: 15px;
+}
+
+p {
+    background: linear-gradient(45deg,rgb(244, 67, 105, 1), rgb(62, 59, 146, 1));
+    background-size: 400% 400%;
+    animation: rainbow 10s linear infinite;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    border-radius: 5px;
+}
+
+.itensCar {
+    margin: 15px;
+    font-size: 20px;
+}

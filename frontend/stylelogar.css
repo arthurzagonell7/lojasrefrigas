@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+button {
+    background: linear-gradient(45deg,rgb(244, 67, 105, 1), rgb(62, 59, 146, 1));
+    background-size: 400% 400%;
+    animation: rainbow 10s linear infinite;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    background: linear-gradient(45deg,rgb(244, 67, 105, 1), rgb(62, 59, 146, 1));
+    background-size: 400% 400%;
+    animation: rainbow 10s linear infinite;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+header p{
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+
+#add1:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+#add2:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.container img {
+    height: 60px;
+    padding-right: 10px;
+}
+
+
+.item {
+    display: flex; 
+}
+
+
+.limpar {
+    margin: 15px;
+}
+
+p {
+    background: linear-gradient(45deg,rgb(244, 67, 105, 1), rgb(62, 59, 146, 1));
+    background-size: 400% 400%;
+    animation: rainbow 10s linear infinite;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    border-radius: 5px;
+}
+
+.itensCar {
+    margin: 15px;
+    font-size: 20px;
+}
+
+
+.logar {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.logar h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.logar input[type="email"],
+.logar input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.logar button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-btn {
+    background: linear-gradient(45deg, rgb(244, 67, 105, 1), rgb(62, 59, 146, 1));
+    ;
+}
+
+.register-btn {
+    background: linear-gradient(45deg, rgb(244, 67, 105, 1), rgb(62, 59, 146, 1));
+    ;
+}
+
+
+.logar button:hover {
+    opacity: 0.9;
+}
+
+.logar a {
+    color: #2196F3;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+}
+
+.logar a:hover {
+    text-decoration: underline;
+}
+
